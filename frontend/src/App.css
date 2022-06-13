@@ -1,0 +1,144 @@
+.formsContainer {
+    max-width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: wrap;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #f8f9fa;
+}
+
+.homeComponent.flex-container {
+    background-color: #f8f9fa;
+    max-width: 800px;
+    padding: 20px 15px;
+    border: 1px solid rgba(67, 67, 112, 0.25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+}
+
+.loginComponent,
+.regComponent {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #f8f9fa;
+}
+
+.loginContainer,
+.regContainer {
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    width: 350px;
+
+    background-color: #f8f9fa;
+    border: 1px solid rgba(67, 67, 112, 0.25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    gap: 10px;
+}
+
+.h2title {
+    margin-bottom: 10px;
+    color: rgb(178, 0, 154);
+}
+
+.h2title2 {
+    color: rgba(12, 22, 201, 0.822)
+}
+
+.dashboardContainer {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 800px;
+    padding: 20px 25px;
+
+    background-color: #f8f9fa;
+    border: 1px solid rgba(67, 67, 112, 0.25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sections {
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 5px;
+}
+
+.buttonHolder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.joinTeamCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    gap: 20px;
+}
+
+.existingTeamCard {
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 200px;
+    height: 170px;
+
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.boldText {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.section4 {
+    padding: 20px;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+
+    align-items: center;
+}
+
+.selectedTeam {
+    margin-top: 10px;
+    display: flex;
+}
+
+.selectedTeam li {
+    list-style-image: url('https://images.emojiterra.com/google/android-10/512px/1f93e-2642.png');
+}
+
+.teamPlayers,
+.teamAdmins,
+.teamName {
+    width: 200px;
+}
+
+.backButton {
+    flex-flow: nowrap;
+}
+
+.adminSort {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* .eventsCard {
+
+} */
